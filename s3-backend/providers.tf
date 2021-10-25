@@ -8,9 +8,9 @@ terraform {
   }
 
   backend "s3" {
-    region = "ap-southeast-1"
-    bucket = "terraform-state-bucket-grumbeard-powerx-1"
-    key = "s3-backend.tfstate"
+    region  = "ap-southeast-1"
+    bucket  = "terraform-state-bucket-grumbeard-powerx-1"
+    key     = "s3-backend.tfstate"
     encrypt = true
   }
 }
